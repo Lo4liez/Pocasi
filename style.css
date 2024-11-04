@@ -1,0 +1,68 @@
+/* Center the content and give a background color */
+body {
+    background: url('Neko.jpg') no-repeat left center fixed, url('Monster.jpg') no-repeat right center fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f4f8; /* Light gray-blue background for a soft look */
+    font-family: Arial, sans-serif;
+}
+
+/* Styled container for sections */
+#weather, #dobronin, #jihlava, #city {
+    text-align: center;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    padding: 20px;
+    margin: 10px;
+    max-width: 300px; /* Set a maximum width */
+    background-color: #ffffff; /* White background for contrast */
+    border: 1px solid #ddd; /* Light border */
+    transition: transform 0.2s ease; /* Smooth hover effect */
+}
+
+/* Hover effect for each section */
+#weather:hover, #dobronin:hover, #jihlava:hover, #city:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+/* Horizontal line with spacing and softer color */
+hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #eee;
+    width: 90%;
+}
+
+/* Input and button styling */
+input, button {
+    width: 90%;
+    margin: 10px auto;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 1em;
+    outline: none;
+}
+
+/* Button-specific styles */
+button {
+    background-color: #4CAF50; /* Soft green background */
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Input focus styling */
+input:focus {
+    border-color: #4CAF50; /* Green border on focus */
+    box-shadow: 0px 0px 5px rgba(76, 175, 80, 0.2); /* Soft green glow */
+}
