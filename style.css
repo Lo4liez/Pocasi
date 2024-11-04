@@ -1,6 +1,6 @@
 /* Center the content and give a background color */
 body {
-    background: url('Neko.jpg') no-repeat left center fixed, url('Monster.jpg') no-repeat right center fixed;
+    background: url('Neko.jpg') no-repeat center center fixed;
     display: flex;
     justify-content: center;
     align-items: center;
